@@ -16,6 +16,7 @@ public class CalcularImc {
 
 	public void status() {
 
+		System.out.print("Seu status é: ");
 		if (imc < 18.5) {
 
 			System.out.println("abaixo do peso");
@@ -30,15 +31,15 @@ public class CalcularImc {
 
 		} else if (imc >= 30 && imc < 35) {
 
-			System.out.println("Obesidadegrau I");
+			System.out.println("Obesidade grau I");
 
 		} else if (imc >= 35 && imc < 40) {
 
-			System.out.println("Obesidadegrau II");
+			System.out.println("Obesidade grau II");
 
 		} else if (imc >= 40) {
 
-			System.out.println("Obesidadegrau III");
+			System.out.println("Obesidade grau III");
 
 		}
 
